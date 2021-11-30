@@ -104,7 +104,7 @@ scrambledtext = ' '.join(textlist)
 #make a text scrambler that creates 100 versions
 
 
-mytext = "Je vais voir avec le SPAV si c’est possible pour eux d’attendre et d’intégrer la partie audio sur laquelle vous retravaillez avec Clément. Je te tiens informé"
+mytext = "What to do with this all? Paste it to the wall with some photos and see what it looks like. Wait, paste these two pages together and cut in the middle. Paste it all together, end to end, and send it out like a big piano-roll. After all, it's not but matter. There's nothing sacred about words."
 textlist = mytext.split()
 a=0
 
