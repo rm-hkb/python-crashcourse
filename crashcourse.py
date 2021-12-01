@@ -106,14 +106,3 @@ scrambledtext = ' '.join(textlist)
 # Use a while loop to make a text scrambler that creates 100 versions
 
 
-mytext = "What to do with this all? Paste it to the wall with some photos and see what it looks like. Wait, paste these two pages together and cut in the middle. Paste it all together, end to end, and send it out like a big piano-roll. After all, it's not but matter. There's nothing sacred about words."
-textlist = mytext.split()
-a=0
-
-while a < 100:
-	random.shuffle(textlist)
-	scrambledtext = ' '.join(textlist)
-	print(scrambledtext)
-	a = a + 1
-
-
