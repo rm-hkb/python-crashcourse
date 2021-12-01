@@ -91,7 +91,9 @@ mytext = "What to do with this all? Paste it to the wall with some photos and se
 
 textlist = mytext.split()
 
-import random
+import random #this imports some basic randomization functions
+# obviously there are many other modules to extend your python's capabilities. a very brief overview of a few standard libraries included with python is here:
+# https://docs.python.org/3.10/tutorial/stdlib.html
 
 random.shuffle(textlist)
 print(textlist)
